@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 30px;
+  margin-bottom: 0;
+}
+
+.inputs,
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin: 10px 30px;
+}
+
+input,
+button {
+  width: 290px;
+}
+button:hover {
+  background: #382c6e;
+  color: #fec107;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #ffc207;
+  margin: 20px 30px;
+}
+
+td,
+th {
+  border: 2px solid #fec107;
+}
+.lastname {
+  background: #e5ae30;
+  color: #000000;
+}
+table th {
+  font-family: roboto;
+  font-size: x-large;
+  text-align: center;
+  text-transform: uppercase;
+  background: #fec107;
+  color: #000000;
+  padding: 20px 100px;
+}
+
+table td {
+  font-family: poppins;
+  font-size: large;
+  background: #382c6e;
+  color: #ffffff;
+  padding: 20px 100px 20px 20px;
+}

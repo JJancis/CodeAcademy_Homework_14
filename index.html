@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Table1</title>
+  </head>
+  <body>
+    <h1>Append table</h1>
+      <div class="inputs">
+        <input id="name" type="text" placeholder="vardas" />
+        <input id="surname" type="text" placeholder="pavardė" />
+        <input id="age" type="number" placeholder="amžius" min="1" />
+      </div>
+
+      <div class="buttons">
+        <button id="add">Pridėti</button>
+        <button id="removeFirst">Ištrinti pirmą</button>
+        <button id="removeLast">Ištrinti paskutinį</button>
+      </div>
+
+      <table id="table">
+        <thead>
+          <tr>
+            <th>Vardas</th>
+            <th class="lastname">Pavardė</th>
+            <th>Amžius</th>
+          </tr>
+          <tr>
+            <td>Jonas</td>
+            <td>Rimkus</td>
+            <td>54</td>
+          </tr>
+          <tr>
+            <td>Vestina</td>
+            <td>Petronytė</td>
+            <td>31</td>
+          </tr>
+          <tr>
+            <td>Marius</td>
+            <td>Dulinskas</td>
+            <td>23</td>
+          </tr>
+        </tbody>
+      </table>
+   
+    <script src="script.js"></script>
+  </body>
+</html>
